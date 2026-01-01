@@ -61,11 +61,7 @@ export default function Home() {
         rows={3}
       />
       <button
-        onClick={() => { setStory(''); setUserInput(''); setChoice(''); }}
-  className="px-6 py-3 bg-gray-600 rounded-full hover:bg-gray-700 ml-4"
->
-  New Story
-</button>
+        onClick={generateStory}
         className="px-6 py-3 bg-purple-600 rounded-full hover:bg-purple-700 mb-8"
       >
         Ignite
